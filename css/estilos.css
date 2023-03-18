@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Noto Serif TC', serif;
+}
+
+/* contenedores */
+
+header {
+    padding: 50px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    header img {
+        width: 50%;
+    }
+}
+
+.hero {
+    background: #C5C5C5 url(../img/hero.jpg) no-repeat right;
+    height: 400px;
+}
+
+section{
+    margin: 50px 0;
+}
+
+#bio{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#bio ul{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+
+footer {
+    background: #DADBD6 url(../img/back.jpg) no-repeat center center fixed;
+    padding-top: 700px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* menu */
+
+nav ul {
+    list-style-type: none;
+    font-family: 'DM Serif Display', serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.btn-dark {
+    background-color: black;
+    border-color: black;
+}
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+    }
+    nav ul li {
+        flex: 1;
+    }
+}
+
+/* fuentes */
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'DM Serif Display', serif;
+    border-left: 6px solid rgb(49, 175, 163);
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    color: rgb(49, 175, 163);
+}
+
+p{
+    margin-top: 10px;
+}
+
+/* tabla */
+.table{
+    color: white;
+}
+
+th{
+    background-color: rgb(49, 175, 163);
+}
