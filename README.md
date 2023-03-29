@@ -1,5 +1,5 @@
 # Stephen King
-[https://maxi-franco.github.io/Stephen-King](https://maxi-franco.github.io/Stephen-King)
+[https://maxi-franco.github.io/StephenKing/](https://maxi-franco.github.io/StephenKing/)
 
 ## Description
 This is an exercise done at ORT University.<br>
