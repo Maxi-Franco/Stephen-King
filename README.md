@@ -11,6 +11,6 @@ Applied technologies:
 - CSS - Bootstrap
 - jQuery
 
-## Author
+
 Created by _Maxi-Franco_ &copy; 2021<br>
 * [LinkedIn](https://www.linkedin.com/in/maxi-franco/)
